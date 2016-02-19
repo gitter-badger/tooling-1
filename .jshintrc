@@ -1,0 +1,30 @@
+{
+  "bitwise": true,
+  "browser": true,
+  "curly": false,
+  "eqeqeq": true,
+  "forin": true,
+  "freeze": true,
+  "futurehostile": true,
+  "immed": true,
+  "indent": 2,
+  "latedef": true,
+  "maxerr": 100,
+  "noarg": true,
+  "node": true,
+  "nonbsp": true,
+  "nonew": true,
+  "notypeof": true,
+  "quotmark": "single",
+  "strict": true,
+  "undef": true,
+  "unused": true,
+  "latedef": "nofunc",
+  "globals": {
+    "angular": false,
+    "jQuery": false,
+    "Highcharts": false,
+    "moment": false,
+    "uhash": false
+  }
+}
