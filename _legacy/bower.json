@@ -1,5 +1,5 @@
 {
-  "name": "_PROJECT_NAME_",
+  "name": "%PROJECT_NAME%",
   "dependencies": {
     "bootstrap": "~3.2.0",
     "font-awesome": "~4.4.0"
