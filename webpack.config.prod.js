@@ -12,8 +12,8 @@ module.exports = {
   plugins: [
     new webpack.optimize.UglifyJsPlugin({
       compressor: {
-        warnings: false,
-      },
+        warnings: false
+      }
     }),
     new webpack.optimize.OccurrenceOrderPlugin(),
     new HtmlWebpackPlugin({
@@ -28,11 +28,11 @@ module.exports = {
     loaders: [
       {
         test: /\.css$/,
-        loader: ExtractTextPlugin.extract('style-loader', 'css-loader')
+        loader: ExtractTextPlugin.extract('style', 'css')
       },
       {
         test: /\.scss$/,
-        loaders: ExtractTextPlugin.extract('style-loader', 'css-loader', 'sass-loader')
+        loaders: ExtractTextPlugin.extract('style', 'css', 'sass')
       }
     ]
   }

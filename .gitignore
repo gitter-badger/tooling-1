@@ -1,6 +1,7 @@
 dist
 node_modules
 bower_components
+src/vendor/bower
 .tmp
 dump.rdb
 lib-cov
