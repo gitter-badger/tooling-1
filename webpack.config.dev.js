@@ -53,7 +53,7 @@ module.exports = {
       {
         test: /\.(js|jsx|es6)$/,
         loaders: ['eslint'],
-        exclude: /(node_modules|bower)/
+        exclude: /(node_modules|vendor|bower)/
       }
     ],
     loaders: [

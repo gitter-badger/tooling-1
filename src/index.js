@@ -1,4 +1,4 @@
-// require('./index.dev.js');
-import './index.dev';
+import './index.dev'; // Do not touch.
+
+// Bootstrap your angular module and include your components here
 import './components/demo';
-// require('./components/demo');
