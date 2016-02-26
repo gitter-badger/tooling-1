@@ -1,5 +1,7 @@
 # Tooling starter project
 
+[![Join the chat at https://gitter.im/just-bi/tooling](https://badges.gitter.im/just-bi/tooling.svg)](https://gitter.im/just-bi/tooling?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ## Replace the following placeholders throughout the project:
 Placeholder | Description | Example
 ------------ | ------------- | -------------
