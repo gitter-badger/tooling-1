@@ -50,8 +50,34 @@ SAP/Open UI5 | ui5 | coming soon
 - [ ] Add HTML minification
 - [ ] Add framework specific examples / starter projects
 
-## Pictures
-Coming soon!
+## How do I structure my project?
+### You are free to structure your project in anyway you want as long as you have
+* src/ (contains the project's source code)
+  * vendor/ (contains vendor libraries that are not available on NPM nor Bower)
+  * index.html (HTML entrypoint / Main template)
+  * index.js (JavaScript entrypoint / Main module)
+  * index.dev.js (Development helpers for Webpack)
+* .babelrc (Babel settings)
+* .bowerrc (Bower settings)
+* .editorconfig (IDE settings)
+* .eslintignore (ESLint ignored files)
+* .eslintrc (ESLint linting rules)
+* .gitattributes (Git settings)
+* .gitignore (Git ignored files/folders)
+* bower.json (Bower dependencies)
+* package.json (Project settings / NPM dependencies and scripts)
+* webpack.config.dev.js (Webpack development configuration)
+* webpack.config.prod.js (Webpack production configuration)
+
+### Example
+![How to structure my project](https://raw.githubusercontent.com/nvanmeurs/tooling/master/docs/Structure.png)
+
+## How do I work with modules?
+### Exporting
+![How to export modules](https://raw.githubusercontent.com/nvanmeurs/tooling/master/docs/Exports.png)
+
+### Importing
+![How to import modules](https://raw.githubusercontent.com/nvanmeurs/tooling/master/docs/Imports.png)
 
 ## Questions?
 Hit me up on gitter
