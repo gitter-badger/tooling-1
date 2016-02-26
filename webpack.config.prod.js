@@ -20,7 +20,8 @@ module.exports = {
   },
   resolve: {
     alias: {
-      jquery: resolveBowerPath('/jquery/dist/jquery.js')
+      // example:
+      // jquery: resolveBowerPath('/jquery/dist/jquery.js')
     },
     modulesDirectories: [
       'src/vendor',

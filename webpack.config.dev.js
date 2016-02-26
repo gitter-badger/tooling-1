@@ -22,7 +22,8 @@ module.exports = {
   },
   resolve: {
     alias: {
-      jquery: resolveBowerPath('/jquery/dist/jquery.js')
+      // example:
+      // jquery: resolveBowerPath('/jquery/dist/jquery.js')
     },
     modulesDirectories: [
       'src/vendor',
@@ -34,11 +35,6 @@ module.exports = {
   devtool: 'cheap-eval-source-map',
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
-    // new webpack.optimize.UglifyJsPlugin({
-    //   compressor: {
-    //     warnings: false
-    //   }
-    // }),
     new webpack.optimize.OccurrenceOrderPlugin(),
     new HtmlWebpackPlugin({
       template: './src/index.html'

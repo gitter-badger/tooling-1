@@ -10,6 +10,18 @@ _REPO_URL_ | URL to this git repository. | https://github.com/nvanmeurs/tooling.
 _AUTHOR_ | Author of the project in NAME <EMAIL> format. | Nicky van Meurs < nvmeurs@outlook.com >
 _LICENSE_ | License. | MIT or GPL
 
+## Commands
+Command | Description
+------------ | -------------
+npm run lint | Lint the project's JavaScript sources
+npm run serve | Serve the development build of the project on the webpack development server
+npm run buildDev | Build the development version of the project
+npm run build | Build the production version of the project
+
+## Usage tips
+* Use NPM to install libraries over Bower for usage and performance benefits
+* Install an ESLint plugin into your IDE of choice (it read the rules from .eslintrc)
+* Install an EditorConfig plugin into your IDE of choice (it will make sure the IDE behaves in the same way for all project members)
 
 ## Which branch do I pick?
 Context | Branch | Status
@@ -18,14 +30,6 @@ Bare/Base | master | ready
 Framework agnostic | agnostic | coming soon
 AngularJS (1.x) | angularjs | coming soon
 SAP/Open UI5 | ui5 | coming soon
-
-## Commands
-Command | Description
------------- | -------------
-npm run lint | Lint the project's JavaScript sources
-npm run serve | Serve the development build of the project on the webpack development server
-npm run buildDev | Build the development version of the project
-npm run build | Build the production version of the project
 
 ## Status
 - [x] Compiles LESS/SASS/Stylus
@@ -37,12 +41,17 @@ npm run build | Build the production version of the project
 - [x] Generates sourcemaps (using eval in development, using sourcemap files during production)
 - [x] Uglifies scripts
 - [x] Development server that watches the filesystem for changes and replaces modules on the fly
+- [ ] Add JSCS for JavaScript code style checking (Code style open for discussion)
+- [ ] Discuss ESLint rules
 - [ ] Optimize extraction of modules that are required by two or more other modules
 - [ ] Add CSS/SASS/Stylus/LESS linting
 - [ ] Add CSS minification
 - [ ] Add HTML linting
 - [ ] Add HTML minification
 - [ ] Add framework specific examples / starter projects
+
+## Pictures
+Coming soon!
 
 ## Questions?
 Hit me up on gitter

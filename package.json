@@ -4,15 +4,12 @@
   "version": "0.0.0",
   "description": "_PROJECT_DESCRIPTION_",
   "keywords": [],
-  "dependencies": {
-    "pleasejs": "^0.4.2"
-  },
+  "dependencies": {},
   "scripts": {
     "build": "webpack --config webpack.config.prod.js",
     "buildDev": "webpack --config webpack.config.dev.js",
     "serve": "webpack-dev-server --config webpack.config.dev.js",
-    "lint": "npm run _lint",
-    "_lint": "eslint src"
+    "lint": "eslint src"
   },
   "main": "src/index.html",
   "repository": {
